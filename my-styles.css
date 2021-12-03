@@ -1,0 +1,281 @@
+.heading{
+    display: flex;
+    margin-top: 150px;
+}
+
+
+.text{
+
+    font-size: 60px;
+    font-family:sans-serif;
+    margin-left: 300px;
+}
+
+
+
+
+.circle{
+
+    border: 2px solid rgb(207, 9, 9);
+    height: 45px;
+    width: 45px;
+    border-radius:50% ;
+    background-color: rgb(207, 9, 9);
+    position: relative;
+    display: flex;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+.plus1{
+    
+    height: 4px;
+    width: 30px;
+    margin-top: 45%;
+    margin-left: 8px;
+    position: absolute;
+    background-color: white;
+
+
+}
+.plus2{
+
+    
+    height: 28px;
+    width: 4px;
+    margin-top: 27%;
+    margin-left: 21px;
+    background-color: white;
+       
+
+}
+
+.add{
+
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: silver;
+    margin-top: 17px;
+}
+
+.content{
+    
+    display: flex;
+    margin-left: 120px;
+
+
+
+
+}
+
+.trip{
+
+    border: 1px solid red;
+    height: 400px;
+    width: 250px;
+    margin-top: 80px;
+    margin-left: 80px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 10px 10px 8px rgb(207, 203, 203);
+    
+}
+
+.paris{
+
+    color:red;
+    margin-left:20% ; 
+    margin-top: 15%;
+    font-size: 30px;
+    font-family:Franklin Gothic Book;
+
+
+}
+
+.task{
+
+    color: red;
+    margin-left:20% ; 
+    margin-top: 15%;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-decoration: line-through;
+    
+}
+
+.form{
+
+    margin-top: 10%;
+    font-size: 25px;
+    font-family: sans-serif;
+
+
+}
+
+input.box{
+
+    width: 23px;
+    height: 23px;
+    margin-left: 15px;
+
+}
+
+.empty{
+    border-top: 2px solid rgb(197, 192, 192);
+    width: 150px;
+    margin-left: 900px;
+    margin-top: 90px;
+    display: flex;
+    position: absolute; 
+      
+
+}
+.one ,two{
+    margin-left: 230px;
+
+    
+}
+.head1{
+    
+    display:inline-block;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 40px 0px 0px 400px; 
+    
+}
+
+.back{
+    margin-left: 550px;
+    margin-top: 30px;
+
+
+}
+.text1{
+    font-size:50px;
+    font-family: sans-serif;
+    color: rgb(53, 51, 51);
+    
+    
+}
+
+.trip1{
+    border: 1px solid red;
+    height: 400px;
+    width: 400px;
+    margin-top: 60px;
+    margin-left: 450px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 10px 10px 8px rgb(207, 203, 203);
+    
+
+
+
+}
+.paris1{
+    color:rgb(219, 5, 5);
+    margin-left:30% ; 
+    margin-top: 15%;
+    font-size: 35px;
+    font-family:Franklin Gothic Book;
+    
+}
+
+.task1{
+    color: rgb(219, 5, 5);
+    margin-left:35% ; 
+    margin-top: 10%;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: line-through;
+
+
+}
+
+.form1{
+    margin-top: 10%;
+    margin-left:30% ;
+    font-size: 25px;
+    font-family: sans-serif;
+
+}
+
+.circle1{
+    border: 2px solid rgb(207, 9, 9);
+    height: 45px;
+    width: 45px;
+    border-radius:50% ;
+    background-color: rgb(207, 9, 9);
+    position: relative; 
+    display: flex;
+    margin-left: 320px;
+    margin-top: 70px;
+}
+.plus-2{  
+    height: 28px; 
+    width: 4px; 
+    margin-top: 29%; 
+    margin-left: 21px; 
+    background-color: white; 
+}
+
+.new-list{
+    border: 1px solid red;
+    height: 250px;
+    width: 500px;
+    padding-top:25px;
+     margin-top: 200px; 
+    margin-left: 450px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 10px 10px 8px rgb(207, 203, 203);
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    color: red;
+    z-index:1;
+    position: absolute;
+}
+
+.box2{
+
+    border: 1px solid red;
+    width: 300px;
+    height: 40px;
+    
+    border-radius: 7px;
+    box-shadow: 3px 3px 2px rgb(216, 213, 213);
+
+
+}
+.submit{
+    border:1px solid red;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    color:white;
+    font-size: 20px;
+    background-color: red;
+}
+.bg1{
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    background-image: url(./bgimg1.png);
+    background-size: cover;
+    margin: 20px 30px 50px 20px;
+    filter: blur(4px);
+}
+.bg2{
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    background-image: url(./bg2.png);
+    background-size: cover;
+    margin: 20px 30px 50px 40px;
+    filter: blur(4px);
+
+
+}
